@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  background-image: url("https://res.cloudinary.com/dh0wwy8i8/image/upload/v1677205915/cw2vgilhqp7dbmqxcecp.png");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  font-family: "sans-serif";
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  margin-top: 15px;
+  width: 400px;
+  height: 500px;
+}
+.main-heading {
+  font-size: 80px;
+}
+.main-para {
+  font-size: 20px;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.emoji {
+  margin-left: 45%;
+  height: 30px;
+  width: 30px;
+}
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: orange;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+.alert {
+  position: absolute;
+  display: none;
+  width: 300px;
+  height: 250px;
+  color: rgb(56, 82, 128);
+  background-color: white;
+  display: none;
+  text-align: center;
+}
+span {
+  color: aqua;
+  font-size: 30px;
+  font-family: Helvetica;
+  transform: skewX(40deg);
+}
+.off {
+  transform: skew(20deg);
+  font-size: 40px;
+}
+.alert-change {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:hover {
+  opacity: 0.9;
+  background-color: chocolate;
+}
+.under-line {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+i {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+.footer {
+  margin-top: 25px;
+  min-height: 100px;
+  background-color: black;
+  padding: 30px;
+}
+.i-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.i-links i {
+  margin-left: 18px;
+}
+.icons {
+  display: flex;
+}
